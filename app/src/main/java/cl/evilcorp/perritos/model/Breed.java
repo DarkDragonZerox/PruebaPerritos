@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Breed {
    private Map<String, List<String>> message;
-   private String estado;
+   private String status;
 
     public Map<String, List<String>> getMessage() {
         return message;
@@ -15,19 +15,19 @@ public class Breed {
         this.message = message;
     }
 
-    public String getEstado() {
-        return estado;
+    public String getStatus() {
+        return status;
     }
 
-    public void setEstado(String estado) {
-        this.estado = estado;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     @Override
     public String toString() {
         return "Breed{" +
                 "message=" + message +
-                ", estado='" + estado + '\'' +
+                ", status='" + status + '\'' +
                 '}';
     }
 }
